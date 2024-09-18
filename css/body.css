@@ -1,0 +1,22 @@
+.icono-comida{
+    background-color: white;
+    padding: 15px;
+    border-radius: 50%;
+    color: var(--colorSecundario);
+    font-size: 40px ;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+    transition: transform 0.5s;
+
+    &:hover {
+            transform: scale(1.2);
+            background-color: var(--colorSecundario);
+            color: white;
+            border: 2px solid white;
+    }
+    
+}
+
+.contenedor-menu{
+    background-color: var(--colorSecundario) ;
+    width: 100%;
+}

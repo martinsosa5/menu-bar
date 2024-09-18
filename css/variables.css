@@ -1,0 +1,8 @@
+/* en root define las variables que voy a usar en el proyecto */
+
+:root{
+    --tipografiaBebas: 'Bebas Neue', 'Arial';
+    --tipografiaPoppins: 'Poppins', 'Arial';
+    --colorPrimario: black;
+    --colorSecundario: rgb(253, 79, 4);
+}

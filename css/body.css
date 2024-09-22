@@ -47,3 +47,18 @@
     background-color: var(--colorSecundario) ;
     width: 100%;
 }
+
+.icon_contacto{
+    position: fixed; /*para que quede fijo*/
+    width: 100px;
+    bottom: 3%;
+    left: 3%;
+    z-index: 99; /*para que siempre este sobre los demas lementos*/
+    opacity: 90% ;
+
+    transition: all .2s ease;
+    &:hover{
+        opacity: 100% ;
+        filter: drop-shadow( 0 0 6px black);
+    }
+}

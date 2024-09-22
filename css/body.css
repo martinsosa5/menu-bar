@@ -1,3 +1,30 @@
+.img_logo{
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.contenedor_carousel{
+    border: 3px solid var(--colorSecundario); /* Borde de 3 píxeles de color naranja */
+    border-radius: 10px; /* Bordes redondeados opcionales */
+
+    img{
+        border-radius: 10px;
+    }
+}
+
+.text_descuento{
+    background-color: var(--colorSecundario);
+    border-radius: 10px;
+    width: 150px;
+}
+
+.container_descuento{
+    margin-bottom: 40%;
+}
+
 .icono-comida{
     background-color: white;
     padding: 15px;
